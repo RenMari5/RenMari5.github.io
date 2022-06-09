@@ -7,6 +7,8 @@
 #page-title {
   font-weight: bolder;
   color: salmon;
+
+  margin: 10px;
 }
 
 .post-container {
@@ -48,7 +50,9 @@ a {
   margin: 10px;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   align-self: auto;
+  flex-shrink: inherit;
   padding: 10px;
   background-color: #fff;
   color: #000;
