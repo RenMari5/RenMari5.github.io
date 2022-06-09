@@ -9,16 +9,30 @@
   color: salmon;
 }
 
-.posts {
-  width: 95%;
+.post-container {
+  width: auto;
   height: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 10px;
   background-color: #fff;
   color: #000;
   margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #ddd;
+}
+
+.posts {
+  width: 25%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  margin: 20px auto;
+  border: 2px solid black;
   border-radius: 5px;
   box-shadow: 3px 3px 5px #ddd;
 }
