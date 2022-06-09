@@ -1,4 +1,12 @@
+let postContainer = document.createElement("div");
+
+const responses = [];
+
 fetch("https://www.reddit.com/r/aww.json")
   .then((res) => res.json())
-  .then((data) => data.data.children.map((data) => data.data))
-  .catch((error) => console.log(error));
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
