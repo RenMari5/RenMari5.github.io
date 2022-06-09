@@ -50,7 +50,7 @@ a {
   margin: 10px;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-self: auto;
   flex-shrink: inherit;
   padding: 10px;
