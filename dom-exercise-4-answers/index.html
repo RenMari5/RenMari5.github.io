@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <label for="how-many">How Many?</label>
+      <input name="how-many" type="number" placeholder="0" id="how-many" />
+
+      <label for="coins">Which Coin?</label>
+
+      <!-- <select name="coins" id="coins">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+        </select> -->
+
+      <div id="coin-select">
+        <input type="radio" id="penny" name="coins" value="penny" />
+        <label for="penny">Penny</label><br />
+        <input type="radio" id="nickel" name="coins" value="nickel" />
+        <label for="nickel">Nickel</label><br />
+        <input type="radio" id="dime" name="coins" value="dime" />
+        <label for="dime">Dime</label>
+        <input type="radio" id="quarter" name="coins" value="quarter" />
+        <label for="quarter">Quarter</label>
+      </div>
+
+      <button type="submit" id="make-money-button">Make Money</button>
+    </div>
+
+    <div id="total"></div>
+    <ul id="coin-collection"></ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>

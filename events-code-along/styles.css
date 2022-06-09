@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+#circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: magenta;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  /* could also use a transform translate on the cirle to get the mouse in the center, too */
+}

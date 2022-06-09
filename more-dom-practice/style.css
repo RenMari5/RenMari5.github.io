@@ -1,0 +1,16 @@
+.orange {
+  color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.hidden {
+  display: none;
+}
+
+.highlighter {
+  color: white;
+  background-color: yellow;
+}

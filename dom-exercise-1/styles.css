@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  margin-left: 0px;
+}
+
+.delete-btn {
+  margin-left: 20px;
+}
