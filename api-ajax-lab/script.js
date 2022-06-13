@@ -14,10 +14,14 @@ fetch("https://www.reddit.com/r/aww/.json")
       let h3 = document.createElement("h3");
       let image = document.createElement("img");
       let a = document.createElement("a");
-      let linkText = document.createTextNode("Link");
+      let linkText = document.createTextNode("View Post");
       image.src = post.data.thumbnail;
       h3.innerText = post.data.title;
-      a.href = post.data.permalink;
+      a.href = `https://www.reddit.com/${post.data.permalink}`;
+      // linkText.setAttribute(
+      //   "href",
+      //   `https://www.reddit.com/${post.data.permalink}`
+      // );
       div.appendChild(image);
       div.appendChild(h3);
       a.appendChild(linkText);

@@ -1,0 +1,16 @@
+TN:
+SF:isEven.js
+FN:2,isEven
+FNF:1
+FNH:1
+FNDA:2,isEven
+DA:16,2
+DA:17,1
+DA:20,1
+LF:3
+LH:3
+BRDA:16,0,0,1
+BRDA:16,0,1,1
+BRF:2
+BRH:2
+end_of_record
